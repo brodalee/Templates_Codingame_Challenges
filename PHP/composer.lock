@@ -1,0 +1,165 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "49c39993172dc78cc05b71e4c8bc5466",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "elementaryframework/events",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElementaryFramework/Events.git",
+                "reference": "27ea6edb1eeb3da12ff6982a776e45dfbd0f1569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElementaryFramework/Events/zipball/27ea6edb1eeb3da12ff6982a776e45dfbd0f1569",
+                "reference": "27ea6edb1eeb3da12ff6982a776e45dfbd0f1569",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ElementaryFramework\\Core\\Events\\": "src/Core/Events/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nana Axel",
+                    "email": "ax.lnana@outlook.com"
+                }
+            ],
+            "description": "Shared project to manage and handle events",
+            "keywords": [
+                "Buffer",
+                "async",
+                "stream"
+            ],
+            "support": {
+                "issues": "https://github.com/ElementaryFramework/Events/issues",
+                "source": "https://github.com/ElementaryFramework/Events/tree/v0.1.0"
+            },
+            "time": "2021-05-02T11:23:20+00:00"
+        },
+        {
+            "name": "elementaryframework/fire-fs",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElementaryFramework/FireFS.git",
+                "reference": "747a0e08b9d2ef02010a339b72281533bb9e71fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElementaryFramework/FireFS/zipball/747a0e08b9d2ef02010a339b72281533bb9e71fd",
+                "reference": "747a0e08b9d2ef02010a339b72281533bb9e71fd",
+                "shasum": ""
+            },
+            "require": {
+                "elementaryframework/events": "^0.1.0",
+                "elementaryframework/streams": "^0.1.0",
+                "php": ">=7.1.10"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ElementaryFramework\\FireFS\\": "src/FireFS/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Axel Nana",
+                    "email": "ax.lnana@outlook.com"
+                }
+            ],
+            "description": "Easily access and manage your files with PHP",
+            "keywords": [
+                "files",
+                "filesystem"
+            ],
+            "support": {
+                "issues": "https://github.com/ElementaryFramework/FireFS/issues",
+                "source": "https://github.com/ElementaryFramework/FireFS/tree/v1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AGAQAC3W4ZRMA&source=url",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-08-11T12:19:59+00:00"
+        },
+        {
+            "name": "elementaryframework/streams",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElementaryFramework/Streams.git",
+                "reference": "dd2289ad7547b066566bd12ee1ebde1b2388f99d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElementaryFramework/Streams/zipball/dd2289ad7547b066566bd12ee1ebde1b2388f99d",
+                "reference": "dd2289ad7547b066566bd12ee1ebde1b2388f99d",
+                "shasum": ""
+            },
+            "require": {
+                "elementaryframework/events": "^0.1.0",
+                "php": ">=7.1.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ElementaryFramework\\Core\\Streams\\": "src/Core/Streams/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nana Axel",
+                    "email": "ax.lnana@outlook.com"
+                }
+            ],
+            "description": "Shared project for streams operations across the framework",
+            "keywords": [
+                "async",
+                "emitter",
+                "event"
+            ],
+            "support": {
+                "issues": "https://github.com/ElementaryFramework/Streams/issues",
+                "source": "https://github.com/ElementaryFramework/Streams/tree/v0.1.0"
+            },
+            "time": "2021-05-02T11:31:07+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
